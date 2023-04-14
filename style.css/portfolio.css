@@ -1,0 +1,33 @@
+/* Основний білий колір #ffffff;*/
+/* Білий колір фону #F5F5F5; */
+/* Фон для футеру #2F303A; */
+/* Чорний колір основного тексту #212121;*/
+/* Сірий колір дрібного тексту #757575; */
+/* Синій колір для ховерів #2196F3; */
+
+:root {
+  --primary-white-color: #ffffff;
+  --background-white: #f5f5f5;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --blue-color: #2196f3;
+  --buttons-color: #f5f4fa;
+  --background-dark-grey: #2f303a;
+  --footer-half-transparent-grey: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio munu (buttons section) */
+.section-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--buttons-color);
+}
+
+.section-buttons:focus,
+.section-buttons:hover {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--blue-color);
+}
+
+/* Portfolio sub menu */
